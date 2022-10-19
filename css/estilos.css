@@ -1,0 +1,432 @@
+@charset "UTF-8";
+/******* Variables 1 *******/
+/** generales **/
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;500;700&family=Montserrat:wght@300;500;900&family=Open+Sans:wght@400;700&family=Overpass:wght@300;400;700&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+.myTypeR {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.typeR {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+}
+
+.typeR.white {
+  color: #fff;
+}
+
+.typeR.blue {
+  color: #2e65cc;
+}
+
+.typeR.black {
+  color: black;
+}
+
+.bandaAzul1 {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: #2d63c9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.bandaAzul2 {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-color: #93b0e7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.quienes .banner {
+  width: 100%;
+  min-height: 400px;
+  background-image: url("../media/quienessomos2.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.boton {
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #2e65cc;
+  font-size: 20px;
+}
+
+.boton:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #338dff;
+  color: #fff;
+  border-radius: 15px;
+}
+
+.blogTitle .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0rem;
+}
+
+/** Headers **/
+.headerIni {
+  background-color: #00d2ff;
+  background-image: url("../media/escritorio-1920-1080.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 610px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerQuienes {
+  background-color: #00d2ff;
+  background-image: url("../media/quienes-somos-1902-1280.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 610px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerServicios {
+  background-color: #00d2ff;
+  background-image: url("../media/servicios-1920-1275.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 610px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerBlog {
+  background-color: #00d2ff;
+  background-image: url("../media/blog-1920-1280.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 610px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContacto {
+  background-color: #00d2ff;
+  background-image: url("../media/contacto-1920-1080.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 610px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerRRSS {
+  background-color: #00d2ff;
+  background-image: url("../media/social-media-1920-1280.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 610px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerComingSoon {
+  background-color: #00d2ff;
+  background-image: url("../media/coming-soon-1920-1279.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 610px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.my404 {
+  color: #fff;
+  font-family: "Montserrat",Sans-serif;
+  text-transform: capitalize;
+  letter-spacing: -2px;
+  font-size: 8.5rem;
+  font-weight: 900;
+  line-height: 1.2;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.myMainTitle {
+  color: #fff;
+  font-family: "Montserrat",Sans-serif;
+  text-transform: capitalize;
+  letter-spacing: -2px;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.2;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.myMainDetail {
+  color: #fff;
+  font-family: "Open Sans",Sans-serif;
+  text-shadow: 2px 2px 4px #fff, 4px 4px 4px #111, 6px 6px 4px #0f123f;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/** Menu Sticky navbar **/
+.headerAll a:hover {
+  background-color: #2da8f0;
+  color: white;
+  border-radius: 10px;
+}
+
+.text-small {
+  font-size: 0.9rem !important;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #2e65cc;
+  font-weight: 600;
+}
+
+.navbar .nav-item {
+  padding-left: 1rem;
+}
+
+.logo a:hover {
+  background-color: none;
+  border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #93b0e7;
+  font-size: 1.25rem;
+}
+
+/** web1 **/
+.bannerWeb1 .container {
+  display: flex;
+}
+
+.bannerWeb1 img {
+  max-width: 450px;
+}
+
+.bannerWeb1 a:hover {
+  border-radius: 4px;
+}
+
+/** countBanner **/
+.countBanner .container {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* counter */
+.counter {
+  background-color: #93bbee;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.count-title {
+  font-size: 40px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.count-text {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.fa-2x {
+  margin: 0 auto;
+  float: none;
+  display: table;
+  color: #2e65cc;
+}
+
+/** quienes somos **/
+.quienes .boton {
+  width: 100%;
+  align-items: center;
+  vertical-align: center;
+}
+
+/** contacto **/
+.form-inline textarea {
+  color: grey;
+}
+
+.control {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #1f53c5;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+}
+
+/** política **/
+.politica .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+/** footer **/
+.prefooter {
+  width: 100%;
+  /*min-height: 300px;*/
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93b0e7;
+}
+
+.prefooter .card {
+  background-color: #93b0e7;
+  border: none;
+  padding: 0px;
+}
+
+.newFotter .container-fluid {
+  padding: 0px;
+}
+
+.footer a:hover {
+  background-color: #338dff;
+  color: white;
+  border-radius: 15px;
+}
+
+/** Newsletter **/
+.newsLetter .control {
+  width: 100%;
+}
+
+.newsLetter .boton {
+  width: 100%;
+}
+
+.myCentrado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsLetter .contenedor {
+  width: 800px;
+}
+
+/** Instagram **/
+.ig a img {
+  width: 50px;
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  background-color: none;
+}
+
+/** Whatsapp **/
+.wa a img {
+  width: 50px;
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  background-color: none;
+}
+
+.transformImg:hover {
+  transform: scale(1.5, 1.5);
+}
